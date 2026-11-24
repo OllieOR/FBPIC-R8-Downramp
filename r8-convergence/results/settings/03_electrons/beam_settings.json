@@ -1,0 +1,12 @@
+{
+  "energy_cut_MeV": 20.0,
+  "sensitivity_cut_MeV": 5.0,
+  "core_radius_um": 2.0,
+  "population": "Main accelerated population in the first complete wake period between the nearest two robust negative-to-positive m=0 Ez crossings behind the measured laser peak.",
+  "selection": "Saved positive-charge records inside the grid with uz>=1 and K>=cut. Primary moments have no radial cut; the compact population additionally has r<=core_radius about the simulation axis.",
+  "moments": "Centred charge-weighted population moments. Normalised emittance uses x,ux and y,uy. RMS projected divergence uses atan2(ux,uz) and atan2(uy,uz).",
+  "display": "Moment curves require at least 20 effective macroparticles. Every selected positive-charge record contributes to charge.",
+  "empty_or_unresolved": "Resolved empty selections have zero charge and undefined moments. Unresolved wake windows have undefined charge and moments.",
+  "identity": "Instantaneous physical records; IDs are not matched, deduplicated or tracked across runs.",
+  "implementation": "analysis/convergence_analysis/beam.py"
+}

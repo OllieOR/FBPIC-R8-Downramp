@@ -1,0 +1,13 @@
+{
+  "density_cap": 5,
+  "reference": "initial plateau n_e, identical in all four runs",
+  "density_modes": "all, theta=0",
+  "field_mode": 0,
+  "map_field_limit_GVm": 217.57011207723198,
+  "transverse_limit_um": 12,
+  "laser_relative_window_um": [
+    -30,
+    -3
+  ],
+  "lineout_coordinate": "z - (z0 + c*t); exact matched times; no phase shifts or amplitude normalization"
+}

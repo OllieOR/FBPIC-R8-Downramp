@@ -1,0 +1,103 @@
+{
+  "signature": {
+    "raw": {
+      "diags/hdf5/data00001560.h5": {
+        "size": 39352640,
+        "mtime_ns": 1792187995826387461
+      },
+      "particle_history/hdf5/data00001560.h5": {
+        "size": 273553136,
+        "mtime_ns": 1792187996178523553
+      },
+      "diags/hdf5/data00002860.h5": {
+        "size": 45651968,
+        "mtime_ns": 1792190113709273676
+      },
+      "particle_history/hdf5/data00002860.h5": {
+        "size": 273508976,
+        "mtime_ns": 1792190113857914638
+      },
+      "diags/hdf5/data00004000.h5": {
+        "size": 42758336,
+        "mtime_ns": 1792191934965688278
+      },
+      "particle_history/hdf5/data00004000.h5": {
+        "size": 273070576,
+        "mtime_ns": 1792191935219589670
+      },
+      "diags/hdf5/data00006000.h5": {
+        "size": 33057344,
+        "mtime_ns": 1792195106937153248
+      },
+      "particle_history/hdf5/data00006000.h5": {
+        "size": 269668656,
+        "mtime_ns": 1792195107166025338
+      },
+      "diags/hdf5/data00008000.h5": {
+        "size": 30075120,
+        "mtime_ns": 1792198251595887712
+      },
+      "particle_history/hdf5/data00008000.h5": {
+        "size": 268549296,
+        "mtime_ns": 1792198251878560045
+      },
+      "diags/hdf5/data00010750.h5": {
+        "size": 29278016,
+        "mtime_ns": 1792202588147713788
+      }
+    },
+    "config_sha256": "dc92dee8c8529c48bfa451456a9aedc9044c09a42263fe5ddb8c74a25acb58e6",
+    "laser_csv_sha256": "8a98e26f1103727d1cc1f17f6b5fcf4c116a7e2b6a187b533ba6b4ae746c198c",
+    "selection_sha256": "e3d2c1508e08a17de860ce73fa2e805bd895e382180db2791a497de87eab8c43",
+    "ids": [
+      3154002,
+      3275605,
+      3845600,
+      4467280,
+      4687917
+    ],
+    "reader_version": 1
+  },
+  "identity_check": [
+    {
+      "id": 3154002,
+      "iteration": 1560,
+      "max_position_difference_um": 8.382165638670669e-09,
+      "max_momentum_difference": 2.4598954327485767e-09,
+      "native_weight_matches": true,
+      "passed": true
+    },
+    {
+      "id": 3275605,
+      "iteration": 1560,
+      "max_position_difference_um": 6.035627553302447e-11,
+      "max_momentum_difference": 3.6172245754251264e-11,
+      "native_weight_matches": true,
+      "passed": true
+    },
+    {
+      "id": 3845600,
+      "iteration": 1560,
+      "max_position_difference_um": 8.291340921132151e-12,
+      "max_momentum_difference": 1.3061329795505117e-11,
+      "native_weight_matches": true,
+      "passed": true
+    },
+    {
+      "id": 4467280,
+      "iteration": 1560,
+      "max_position_difference_um": 1.2736513232969315e-13,
+      "max_momentum_difference": 6.587612400021925e-14,
+      "native_weight_matches": true,
+      "passed": true
+    },
+    {
+      "id": 4687917,
+      "iteration": 1560,
+      "max_position_difference_um": 1.687538997430238e-14,
+      "max_momentum_difference": 2.7627504234004063e-14,
+      "native_weight_matches": true,
+      "passed": true
+    }
+  ]
+}

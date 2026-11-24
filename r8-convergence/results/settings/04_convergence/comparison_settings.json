@@ -1,0 +1,55 @@
+{
+  "time_alignment": "Exact same saved iterations and physical times; no temporal interpolation.",
+  "relative_difference": "100 * (comparison-reference) / reference, omitted if |reference| <1% of its finite peak or reference is zero.",
+  "NRMSE": "100 * sqrt(integral((comparison-reference)^2 dt) / integral(reference^2 dt)); trapezoids only between adjacent valid diagnostics.",
+  "quality": "Beam moments require N_eff >=20 in each run. No quality cut on charge. CSV includes finite sample counts and valid time coverage.",
+  "waveforms": "L2 difference on common fixed moving-coordinate extent; only spatial interpolation; no phase fitting.",
+  "comparisons": [
+    {
+      "reference_case": "R8_Nm2_nt8",
+      "comparison_case": "R8_Nm2_nt16",
+      "description": "Particle sampling: p_nt 8 \u2192 16, Nm=2"
+    },
+    {
+      "reference_case": "R8_Nm2_nt16",
+      "comparison_case": "R8_Nm3_nt16",
+      "description": "Azimuthal modes: Nm 2 \u2192 3, p_nt=16"
+    },
+    {
+      "reference_case": "R8_Nm3_nt16",
+      "comparison_case": "R8_Nm4_nt16",
+      "description": "Azimuthal modes: Nm 3 \u2192 4, p_nt=16"
+    }
+  ],
+  "scope": "Angular sampling and mode-count sensitivity at fixed grid and timestep, with one random seed.",
+  "checks": [
+    {
+      "case": "R8_Nm2_nt8",
+      "unresolved_bucket_snapshots": 27,
+      "low_effective_count_snapshots": 171,
+      "optical_boundary_flag_snapshots": 0,
+      "maximum_optical_band_sensitivity": 0.00015569431581309145
+    },
+    {
+      "case": "R8_Nm2_nt16",
+      "unresolved_bucket_snapshots": 27,
+      "low_effective_count_snapshots": 150,
+      "optical_boundary_flag_snapshots": 0,
+      "maximum_optical_band_sensitivity": 0.00015547752717293365
+    },
+    {
+      "case": "R8_Nm3_nt16",
+      "unresolved_bucket_snapshots": 27,
+      "low_effective_count_snapshots": 181,
+      "optical_boundary_flag_snapshots": 0,
+      "maximum_optical_band_sensitivity": 0.00014923439122281926
+    },
+    {
+      "case": "R8_Nm4_nt16",
+      "unresolved_bucket_snapshots": 28,
+      "low_effective_count_snapshots": 179,
+      "optical_boundary_flag_snapshots": 0,
+      "maximum_optical_band_sensitivity": 0.00014964372344778855
+    }
+  ]
+}

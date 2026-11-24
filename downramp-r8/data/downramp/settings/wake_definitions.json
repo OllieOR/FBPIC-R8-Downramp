@@ -1,0 +1,16 @@
+{
+  "iterations": [
+    2860,
+    4000,
+    6000,
+    8000,
+    10750
+  ],
+  "density_reference_m3": 4e+24,
+  "density_colour_cap": 5,
+  "density_modes": "all, theta=0",
+  "field_mode": 0,
+  "field_colour_limit_GVm": 189.09723807516633,
+  "axis_limit_GVm": 566.7558669538435,
+  "windows": "Common laser-relative interval in R8/C4; transverse display limited to ±12 µm."
+}

@@ -1,0 +1,22 @@
+{
+  "iterations": [
+    2860,
+    4000,
+    6000,
+    8000,
+    10750
+  ],
+  "energetic_cut_MeV": 5.0,
+  "beam_energy_cut_MeV": 20.0,
+  "central_radius_um": 2.0,
+  "central_xi_bounds_um": [
+    -30.0,
+    -3.0
+  ],
+  "selections": "Instantaneous, inside the field grid, uz ≥ 1, positive weights. Beam/energetic curves have no radius cut.",
+  "central": "Geometric phase-space selection only; not a trapping test.",
+  "statistics": "Charge weighted, centred population moments; normalised emittance uses x and ux (or y and uy).",
+  "display_minimum_effective_macroparticles": 20,
+  "duplicate_ids": "All physical records retained for distributions. Histories require unique IDs.",
+  "maximum": "Maximum over all saved forward inside-grid electrons; identity may change."
+}

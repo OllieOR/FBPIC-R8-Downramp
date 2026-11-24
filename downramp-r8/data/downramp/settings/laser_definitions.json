@@ -1,0 +1,21 @@
+{
+  "optical_bands_relative_k0": {
+    "main": [
+      0.25,
+      2.5
+    ],
+    "wide": [
+      0.15,
+      2.5
+    ],
+    "strict": [
+      0.4,
+      2.5
+    ]
+  },
+  "measurement": "Saved optical-band electric and magnetic field energy, integrated over all saved modes with cylindrical cell areas. Parseval checked.",
+  "radius": "Centroid-corrected RMS-equivalent spot radius at the peak of the longitudinal optical-energy profile; equals w for a Gaussian.",
+  "vacuum": "Input Gaussian evaluated at the R8 optical-energy-profile peak position, with the configured focus and Rayleigh length.",
+  "boundary_flags": "At least 1% of saved optical energy within the outer 10% of radial range or within 2 µm of a longitudinal boundary. Flags remain in laser.csv.",
+  "flagged_snapshots": 0
+}

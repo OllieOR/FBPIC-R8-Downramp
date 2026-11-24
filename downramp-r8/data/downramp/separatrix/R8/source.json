@@ -1,0 +1,33 @@
+{
+  "raw_signature": {
+    "2860": {
+      "size": 43075744,
+      "mtime_ns": 1792172978152397614
+    },
+    "4000": {
+      "size": 37409440,
+      "mtime_ns": 1792175033465652534
+    },
+    "6000": {
+      "size": 31678064,
+      "mtime_ns": 1792178190551970367
+    },
+    "8000": {
+      "size": 30683280,
+      "mtime_ns": 1792181344501315879
+    },
+    "10750": {
+      "size": 30179840,
+      "mtime_ns": 1792185638796797102
+    }
+  },
+  "selection_cache_sha256": "e3d2c1508e08a17de860ce73fa2e805bd895e382180db2791a497de87eab8c43",
+  "profile_method": "bandpassed_m1_E_envelope_v1",
+  "wavelength_m": 8e-07,
+  "cycle_average_factor": 0.5,
+  "band_k0": [
+    0.25,
+    2.5
+  ],
+  "smoothing_um": 0.1
+}

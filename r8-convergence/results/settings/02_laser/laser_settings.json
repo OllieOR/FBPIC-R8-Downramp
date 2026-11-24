@@ -1,0 +1,20 @@
+{
+  "optical_band_k_over_k0": [
+    0.25,
+    2.5
+  ],
+  "sensitivity_bands": [
+    [
+      0.15,
+      2.5
+    ],
+    [
+      0.4,
+      2.5
+    ]
+  ],
+  "energy": "Optical-band E and B energy in the saved box, all retained modes, cylindrical cell volumes; Parseval checked.",
+  "radius": "Centroid-corrected RMS-equivalent radius at the peak of the longitudinal optical-energy profile.",
+  "boundary_flag": "At least 1% of optical energy within outer 10% of radius or 2 \u00b5m of a z boundary. Flags in laser CSV.",
+  "implementation": "analysis/convergence_analysis/laser.py"
+}

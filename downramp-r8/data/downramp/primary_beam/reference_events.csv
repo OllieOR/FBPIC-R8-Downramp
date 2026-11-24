@@ -1,0 +1,9 @@
+case,event,laboratory_z_um,position_from_entrance_um
+R8,entrance_start,30.0,0.0
+R8,entrance_end,70.0,40.0
+R8,focus,15.0,-15.0
+R8,downramp_start,110.0,80.0
+R8,downramp_end,118.00000000000001,88.00000000000001
+C4,entrance_start,30.0,0.0
+C4,entrance_end,70.0,40.0
+C4,focus,15.0,-15.0

@@ -1,0 +1,8 @@
+{
+  "energy_cuts_MeV": [
+    5.0,
+    20.0
+  ],
+  "population": "Main accelerated population in the selected wake period, no radial cut.",
+  "purpose": "Check whether angular-setting differences depend on the analysis energy threshold; not a separate numerical convergence test."
+}

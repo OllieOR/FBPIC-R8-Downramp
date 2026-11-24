@@ -1,0 +1,17 @@
+{
+  "python": "3.11.16",
+  "platform": "Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "packages": {
+    "fbpic": "0.27.0",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "numba": "0.67.0",
+    "h5py": "3.16.0",
+    "openPMD-viewer": "1.7.0"
+  },
+  "thread_environment": {
+    "NUMBA_NUM_THREADS": "10",
+    "OMP_NUM_THREADS": "10",
+    "MKL_NUM_THREADS": "1"
+  }
+}

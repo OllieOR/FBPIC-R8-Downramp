@@ -1,0 +1,21 @@
+{
+  "formula": "sqrt(Var_q(xi)*Var_q(K)-Cov_q(xi,K)^2)",
+  "coordinates": [
+    "xi = z - measured laser position (um)",
+    "total kinetic energy K (MeV)"
+  ],
+  "units": "MeV um",
+  "pi_factor": false,
+  "transverse_normalisation": false,
+  "statistics": "Centred charge-weighted RMS area; stable equivalent linear-residual evaluation.",
+  "energy_cuts_MeV": [
+    5.0,
+    20.0
+  ],
+  "effective_count_threshold": 20,
+  "selection": "Exactly the existing beam_core selections; first bucket has no transverse cut.",
+  "reporting": "Empty/unresolved selections and fewer than 20 effective macroparticles are gaps, not zero.",
+  "source": "https://doi.org/10.1103/PhysRevSTAB.18.120102",
+  "population": "first_bucket",
+  "table_sha256": "16f501f159a8c8ee4c466ba844ea39eccdd41a7c0fbe57842676a0ff36ef7c09"
+}

@@ -1,0 +1,19 @@
+{
+  "selected": [
+    {
+      "case": "R8",
+      "id": 3154002,
+      "iteration": 10750,
+      "energy_MeV": 62.373939073200354
+    },
+    {
+      "case": "C4",
+      "id": 3154002,
+      "iteration": 5950,
+      "energy_MeV": 59.371382894484505
+    }
+  ],
+  "definition": "For each run, the fixed ID giving its maximum saved inside-grid forward electron energy over the complete run.",
+  "observation": "Unfiltered particle histories take precedence. Missing observations remain gaps. Observed positions outside the field grid are retained.",
+  "identity": "Tracks require unique saved IDs and unchanged native weights; no inference of trapping from these trajectories alone."
+}

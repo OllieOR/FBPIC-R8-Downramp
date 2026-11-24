@@ -1,0 +1,35 @@
+{
+  "selected_ids": [
+    3154002,
+    3275605,
+    3845600,
+    4467280,
+    4687917
+  ],
+  "snapshots": [
+    2860,
+    4000,
+    6000,
+    8000,
+    10750
+  ],
+  "source_cache_sha256": "e3d2c1508e08a17de860ce73fa2e805bd895e382180db2791a497de87eab8c43",
+  "paired_iterations": [
+    2860,
+    4000,
+    6000,
+    8000,
+    10750
+  ],
+  "selection": "The same five R8-selected IDs, checked against their early C4 states; no C4 reselection",
+  "beta": "sqrt(1-n_C4/n_critical), original wavelength, cold linear group-speed proxy; not measured wake speed",
+  "beta_reference": 0.9988512079621988,
+  "radius_um": 0,
+  "uperp": 0,
+  "model": "H=sqrt(1+<a^2>+uz^2)-beta_ref*uz-psi_axis",
+  "markers": "Actual projected states, fixed colours, filled circles, no jitter, no energy or bucket membership cut",
+  "observations": "Unfiltered histories where available; otherwise filtered diags. Missing does not establish loss.",
+  "optical": "Measured m=1 E envelope, .25-2.5 k0 filter, factor .5 cycle average, .1 um smoothing; same as R8",
+  "interpretation": "Instantaneous on-axis reference; no exact local or 3D trapping classification",
+  "identity_scope": "Early state and native weight match, plus snapshot uniqueness and continuity; not a complete every-frame audit"
+}

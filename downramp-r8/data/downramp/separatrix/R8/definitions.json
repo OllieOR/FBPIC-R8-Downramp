@@ -1,0 +1,25 @@
+{
+  "selected_ids": [
+    3154002,
+    3275605,
+    3845600,
+    4467280,
+    4687917
+  ],
+  "snapshots": [
+    2860,
+    4000,
+    6000,
+    8000,
+    10750
+  ],
+  "source_cache_sha256": "e3d2c1508e08a17de860ce73fa2e805bd895e382180db2791a497de87eab8c43",
+  "optical_source": "measured optical fields",
+  "radius_um": 0,
+  "uperp": 0,
+  "velocity": "Original R8 cold-plasma group-speed reference, not the extended-run speed",
+  "markers": "Five filled coloured circles; original coordinates; no jitter",
+  "model": "H=sqrt(1+<a^2>+uz^2)-beta_ref*uz-psi_axis",
+  "energy_contours": false,
+  "interpretation": "Frozen on-axis reference; actual radii and transverse momenta differ; no 3D capture classification"
+}

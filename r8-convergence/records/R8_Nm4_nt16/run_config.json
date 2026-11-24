@@ -1,0 +1,62 @@
+{
+  "use_cuda": false,
+  "n_order": -1,
+  "Nz": 1200,
+  "zmax": 3e-05,
+  "zmin": -3e-05,
+  "Nr": 100,
+  "rmax": 4e-05,
+  "Nm": 4,
+  "dt": 1.6678204759907605e-16,
+  "boundaries": {
+    "z": "open",
+    "r": "open"
+  },
+  "p_zmin": 3e-05,
+  "p_zmax": 0.001,
+  "p_rmax": 3.8e-05,
+  "n_e": 4e+24,
+  "p_nz": 2,
+  "p_nr": 2,
+  "p_nt": 16,
+  "a0": 4.0,
+  "w0": 5e-06,
+  "tau": 1.6e-14,
+  "z0": 1.5e-05,
+  "lambda0": 8e-07,
+  "zf": 1.5e-05,
+  "theta_pol": 0.0,
+  "v_window": 299792458.0,
+  "ramp_start": 3e-05,
+  "ramp_length": 4e-05,
+  "downramp_start": 0.00011,
+  "downramp_length": 8e-06,
+  "lower_density_factor": 0.75,
+  "exit_start": 0.0009,
+  "exit_length": 0.0001,
+  "window_travel": 0.00054,
+  "N_step": 10800,
+  "checkpoint_period": 2000,
+  "random_seed": 1729,
+  "diagnostic_schedule": [
+    [
+      0,
+      1500,
+      50,
+      200
+    ],
+    [
+      1500,
+      3000,
+      10,
+      20
+    ],
+    [
+      3000,
+      10801,
+      50,
+      200
+    ]
+  ],
+  "case": "R8"
+}

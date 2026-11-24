@@ -1,0 +1,22 @@
+{
+  "seed_iterations": [
+    4000,
+    6000
+  ],
+  "seed_energy_cut_MeV": 5.0,
+  "core_radius_um": 2.0,
+  "wake_window_um": [
+    -30.0,
+    -3.0
+  ],
+  "selection": "Union of the R8 seed selections. C4 counterparts verified by cold initial state and density-weight ratio; outcome-conditioned population, not total yield.",
+  "origin": "First saved cold reference ahead of the laser. An initial particle position, not an injection event or trapping position.",
+  "statistics": "Native charge in each case. Radius median and 10–90% band use common R8 weights, with at least 10% of the original reference charge inside the grid.",
+  "filtered": "Isolated filled markers use filtered diagnostics; line curves use unfiltered histories. Not recorded is distinct from observed outside the grid.",
+  "total_R8_seed_charge_pC": 81.78012136833665,
+  "verified_R8_charge_pC": 81.60244283042425,
+  "cold_momentum_limit": 0.001,
+  "ahead_of_laser_minimum_um": 10.0,
+  "position_tolerance_um": 0.001,
+  "density_weight_ratio_rtol": 0.005
+}

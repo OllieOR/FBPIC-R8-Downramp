@@ -1,0 +1,11 @@
+{
+  "arguments": [
+    "--nm",
+    "4",
+    "--output-dir",
+    "runs/R8_Nm4_nt16"
+  ],
+  "changes_from_reference": {
+    "Nm": 4
+  }
+}
